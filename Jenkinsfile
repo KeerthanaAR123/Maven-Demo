@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/KeerthanaAR123/Maven-Demo.git',
                     credentialsId: 'github-token'
             }
